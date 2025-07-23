@@ -1,0 +1,113 @@
+body{
+    margin: 0;
+    background: #001a33;
+    color: white;
+}
+
+.sidebar{
+    width: 220px;
+    background: rgba(0,51,102,0.95);
+    padding: 32px 16px 16px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    top: 0;
+    border-top-right-radius: 32px;
+    border-bottom-right-radius: 32px;
+}
+
+img{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+main{
+    position: relative;
+    margin-left: 250px;
+    padding: 32px 40px;
+}
+.badges{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+}
+
+.badge{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 18px;
+    padding-right: 18px;
+    border-radius: 24px;
+    background-color: #b3d9ff;
+    margin-bottom: 16px;
+    color: #001a33;
+}
+
+.planet-centerpiece{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 32px;
+}
+.space-pods{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+.space-pod{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 18px;
+    padding-right: 18px;
+    border-radius: 24px;
+    background-color: #b3d9ff;
+    margin-bottom: 16px;
+    text-decoration: none;
+}
+
+.galactic-expo-teaser{
+    padding-top: 32px;
+    padding-bottom: 3px;
+    padding-right: 24px;
+    
+    
+    padding-left: 24px;
+    background-color: #003366b3;
+    border-radius: 32px;
+    margin-bottom: 32px;
+    color: #001a33;
+    text-align: center;
+    margin-top: 32px;
+}
+
+.galactic-expo-teaser h3{
+    color: #e6f3ff;
+    font-size: 24px;
+    font-family: sans-serif;
+}
+.expo-stage{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+.glowing-stage{
+    width: 30px;
+    height: 30px;
+    background-color: #b3d9ff;
+    border-radius: 50%;
+    margin-bottom: 8px;
+
+}
+
+.alien-crowd{
+    font-size: 2em;
+    letter-spacing: 0.2em;
+
+}

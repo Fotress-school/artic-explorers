@@ -1,0 +1,199 @@
+body{
+    margin: 0;
+    background: #001a33;
+    color: white;
+}
+
+.sidebar{
+    width: 220px;
+    background: rgba(0,51,102,0.95);
+    padding: 32px 16px 16px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    top: 0;
+    border-top-right-radius: 32px;
+    border-bottom-right-radius: 32px;
+}
+.space-pod{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 18px;
+    padding-right: 18px;
+    border-radius: 24px;
+    background-color: #b3d9ff;
+    margin-bottom: 16px;
+    text-decoration: none;
+}
+
+main{
+    position: relative;
+    margin-left: 250px;
+    padding: 32px 40px;
+}
+.badges{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+}
+
+.badge{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 18px;
+    padding-right: 18px;
+    border-radius: 24px;
+    background-color: #b3d9ff;
+    margin-bottom: 16px;
+    color: #001a33;
+}
+.page-title{
+      font-size: 2.2em ;
+      text-shadow: 0 0 12px  #00bcd4, 0 0 24px;
+      color: #03dac6;
+      margin-bottom: 16px;
+      letter-spacing: 2Px;  
+
+
+}
+
+.lesson-content{
+    margin-bottom: 32px;
+}
+.lesson-card{
+    border-radius: 24px;
+    margin-bottom:24px;
+    padding-top: 32px;
+    padding-left: 24px;
+    padding-bottom: 32px;
+    padding-right: 24px;
+    background: #1e3c50b3;
+    box-shadow:#03dac635;
+
+}
+.lesson-card h2{
+        color: #03dac6;
+        margin-bottom: 16px;          
+        text-shadow:0 0 8px  #00bcd4;
+        font-family: sans-serif;
+}
+
+.lesson-card p{
+    color: #fff;
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin-bottom: 24px;
+
+}
+
+.code-example{
+    margin: 24px 0;
+    
+}
+.code-example h3{
+    color: #00bcd4;
+    font-family:sans-serif ;
+    font-style: 1.2em;
+    }
+    
+.code-block{
+    padding: 12px;
+    margin: 12 0;
+    border-radius: 12px;
+    border: 2px solid  #03dac6;
+    box-shadow: 0 0 16px  #03dac635;
+    background:#1a2f3f;    
+}
+
+.code-block pre{
+    margin: 0;
+    color:#03dac6;
+    font-style: 1.9em;
+    line-height: 1.4em;
+    overflow-x: auto;
+
+}
+
+.code-block code{
+  color:#03dac6;   
+
+}
+
+.interractive-demo{
+    margin: 24px;
+
+}
+.interractive-demo h3{
+   color:#00bcd4;
+   font-family: sans-serif;
+   font-style: 1.2em;
+   margin-bottom: 12px;
+
+}
+
+.demo-area{
+    background: #03dac61a;
+    backface-visibility: 16px;
+    padding: 20px;
+    border-width: 2px;
+border-style:dashed ;
+border-color: #00bcd4;
+
+}
+.planet-preview{
+    text-align: center;
+}
+.planet-preview h1{
+    color :#00bcd4 ;
+    font-family:sans-serif ;
+    font-display:1.8em ;
+    text-shadow: 0 0 8px #00bcd4;
+
+}
+.mission-section{
+    margin: 32px;
+
+}
+.mission-section h2{
+    color:#00bcd4 ;
+    font-family:sans-serif ;
+    font-style: 1.4em;
+    margin-bottom: 16px;
+    text-shadow:0 0 8px  #00bcd4;
+
+
+}
+.mission-card{
+    background: #1e3c50b3;
+    border-radius: 20px;
+    padding: 24px;
+    box-shadow:0 0 24px #00bcd4aa ;
+    
+    
+
+}
+.mission-card h3{
+    font-family:sans-serif ;
+    color:#00bcd4 ;
+    font-size:1.2em ;
+    margin-bottom: 16px;
+
+}
+.mission-steps{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+.mission-steps  li{
+    color: white;
+    font-size: 1em;
+    padding: 8px 0px;
+    font-family:sans-serif  ;
+
+}
+.border-bottom{
+    border-bottom: 1px solid   #00bcd4 ;
+
+}

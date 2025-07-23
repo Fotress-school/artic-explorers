@@ -1,0 +1,224 @@
+body{
+    margin: 0;
+    background: #001a33;
+    color: white;
+}
+
+.sidebar{
+    width: 220px;
+    background: rgba(0,51,102,0.95);
+    padding: 32px 16px 16px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    top: 0;
+    border-top-right-radius: 32px;
+    border-bottom-right-radius: 32px;
+}
+.space-pod{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 18px;
+    padding-right: 18px;
+    border-radius: 24px;
+    background-color: #b3d9ff;
+    margin-bottom: 16px;
+    text-decoration: none;}
+
+main{
+    position: relative;
+    margin-left: 250px;
+    padding: 32px 40px;
+}
+.badges{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+}
+
+.badge{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 18px;
+    padding-right: 18px;
+    border-radius: 24px;
+    background-color: #b3d9ff;
+    margin-bottom: 16px;
+    color: #001a33;
+}
+
+img{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.planet-title{
+    font-size: 2.2em;
+    border-radius: 12px;
+    background: #1e3c5033;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 12px;
+    padding-right: 12px;
+    color: #03dac6;
+
+
+}
+.planet-description{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.planet-img{
+width: 180px;
+height: 180px;
+border-radius: 50%;
+border-width: 6px;
+border-style: solid;
+border-color: #fff3;
+}
+
+.planet-description P{
+    font-size: 1.2em;
+    color: #fff;
+    background: #03dac626;
+    border-radius: 16px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 18px;
+    padding-left: 18px;
+    margin-bottom: 12px;
+    outline: none;
+
+}
+
+.space-resource{
+border-radius: 32px;
+background: #00bcd4;
+font-size: 1.1em;
+padding: 12px 28px;
+margin-top:12px ;
+text-decoration: none;
+
+
+}
+
+.planet-resource-map{
+    margin: 32px;
+    background: #1e3c50b3;
+    font-size: 1.1em;
+    border-radius: 24px;
+    padding: 24px 20px;
+
+}
+
+.planet-resource-map h2{
+   font-size: 1.3em;
+   margin-bottom: 12px;
+   color: #03dac6;
+}
+
+.neon-list{
+list-style: none;
+display:flex;
+gap: 24px;
+margin: 0px;
+padding: 0px;
+flex-wrap: wrap;
+}
+.neon-list li{
+font-size: 1.1em;
+background: #1a2f3f;
+border-radius: 18px;
+margin-bottom: 8px;
+padding: 10px  20px;
+border-width: 2px;
+border-style: solid;
+border-color: #1a2f3f;
+}
+
+.cosmic-crew{
+    margin: 32px 0px;
+ padding: 24px  20px;
+    background: #1e3c50b3;
+}
+
+.artic-crew h2{
+font-size: 1.3em;
+margin-bottom: 12px;
+color: #03dac6;
+}
+
+.crew-roster{
+    display: flex;
+    gap: 32px;
+    flex-wrap: wrap;
+    justify-content: flex start;
+}
+
+.crew-member{
+    background: #00bcd422;
+    border-radius: 18px;
+    padding: 18px 16px;
+    text-align: center;
+    margin-bottom: 12px;
+    cursor: pointer;   
+}
+
+.crew-member h3{
+    font-size: 1.1em;
+    margin-bottom: 6px;   
+}
+
+.crew-member p {
+color: #fff;
+font-size: 1em;
+margin-bottom: 8px;
+}
+
+.crew-img-placeholder{
+font-size: 2.2em;
+border-radius: 50%;
+width: 48px;
+height: 48px;
+align-items: center;
+justify-content: center;
+background: #1a2f3f;
+}
+
+.code-preveiw-section{
+    margin: 32px  0px;
+    border-radius: 24px;
+    padding: 24px  24px;
+}
+.code-preveiw-section  h3{
+background: #1e3c50b3;
+
+}
+.code-preveiw-section  h2{
+    color: #03dac6;
+}
+
+.code-editor-preview{
+    background: #1a2f3f;
+    border-radius: 16px;
+    min-height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.1em;
+    margin-bottom: 8px;
+    color: #03dac6;
+
+}
+
+.editor-placeholder{
+    padding: 24px 0px;
+    color: #00bcd4;
+    opacity: 0.7;
+    
+    
+}
