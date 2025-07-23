@@ -1,91 +1,208 @@
-body{
+body {
     margin: 0;
     background: #001a33;
     color: white;
 }
 
-.sidebar{
+.sidebar {
+    background: rgba(0, 51, 102, 0.95);
     width: 220px;
-    background: rgba(0,51,102,0.95);
-    padding: 32px 16px 16px;
+    padding-top: 32px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 16px;
     position: fixed;
-    left: 0;
-    bottom: 0;
-    top: 0;
+    left: 0px;
+    top: 0px;
+    bottom: 0px;
+    border: 0px;
     border-top-right-radius: 32px;
     border-bottom-right-radius: 32px;
 }
-.space-pod{
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 18px;
-    padding-right: 18px;
-    border-radius: 24px;
-    background-color: #b3d9ff;
-    margin-bottom: 16px;
-    text-decoration: none;}
 
-main{
+
+main {
     position: relative;
-    margin-left: 250px;
-    padding: 32px 40px;
+    margin-left: 240px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    padding-left: 40px;
+    padding-right: 40px;
 }
-.badges{
+
+
+header h1 {
+    font-size: 40px;
+    color: white;
+    margin-bottom: 32px;
+}
+
+
+.badges {
     list-style: none;
-    padding: 0px;
-    margin: 0px;
+    padding: 0;
+    margin: 0;
     width: 100%;
 }
 
-.badge{
+
+.badge {
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 18px;
     padding-right: 18px;
     border-radius: 24px;
-    background-color: #b3d9ff;
-    margin-bottom: 16px;
+        background-color: #b3d9ff;
     color: #001a33;
-}
-.feature-grid{
-display: grid;
-grid-template-columns: repeat(auto-fit,minmax(28px, 1fr));
-gap: 24px;
-margin: 24px 0px ;
+    margin-bottom: 16px;
 }
 
-.feature-item{
+
+.space-pod {
+    background-color: #b3d9ff;
+    border-radius: 50px;
+    display: inline-block;
+    text-decoration: none;
+    overflow: hidden;
+    padding-bottom: 18px;
+    padding-top: 18px;
+    padding-right: 32px;
+    padding-left: 32px;
+    margin-bottom: 10px;
+    border: none;
+    box-shadow: 0 0 18px #1a2f1a, 0 0 9px #90ee90;
+    cursor: pointer;
+    outline: none;
+    position: relative;
+}
+
+.lesson-content {
+    margin-bottom: 32px;
+}
+
+.lesson-card {
+    border-radius: 24px;
+    margin-bottom: 24px;
+    padding: 32px 24px;
+    background: #2d5a2db3;
+    box-shadow: 0 0 32px #4caf5055;
+}
+
+.lesson-card h2 {
+    color: #4caf50;
+    font-size: 1.6em;
+    margin-bottom: 16px;
+    /* text-shadow:0 0 8px #2e7d32; */
+    font-family: sans-serif;
+}
+
+.lesson-card p {
+    color: #fff;
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin-bottom: 24px;
+}
+
+.code-block {
+    padding: 16px;
+    margin: 12px 0px;
+    border-radius: 12px;
+    border: 2px solid #4caf50;
+    box-shadow: 0 0 16px #4caf5055;
+    background: #1a2f1a;
+}
+
+.code-block pre {
+    margin: 0px;
+    color: #4caf50;
+    font-size: 0.9em;
+    line-height: 1.4em;
+    overflow-x: auto;
+}
+
+.code-block code {
+    color: #4caf50;
+}
+
+.feature-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 24px;
+    margin: 24px 0;
+}
+
+.feature-item {
     border-radius: 16px;
     padding: 20px;
     border-width: 2px;
     border-style: solid;
-    box-shadow: 0 0 16px #00bcd4;  
-}
-.feature-item h3{
-color: #00bcd4;
-font-family: sans-serif;
-margin-bottom: 12px;
-background: #03dac626;
-
+    border-color: #66dd6a;
+    box-shadow: 0 0 16px #4caf5055;
 }
 
-.feature-demo{
-    margin-top: 10px;
+.feature-items h3 {
+    color: #4caf50;
+    font-size: 1.1em;
+    margin: 12px;
+    background: #4caf5026;
+}
+
+.feature-demo {
+    margin-top: 12px;
     padding: 12px;
+    text-align: center;
+    background: #2d5a2d80;
     border-radius: 8px;
     text-align: center;
-    background: #1e5c5080;
-    text-decoration: none;
 }
 
-.demo-link{
-    color: #00bcd4;
+.demo-link {
     text-decoration: none;
     font-weight: bold;
+    color: #4caf50;
     transition: color 0.2s;
 }
-.demo-link:hover{
-    color: #00bcd4;
-    
 
+.demo-link:hover {
+    color: #66bb6a;
+}
+
+.mission-section {
+    margin: 32px 0px;
+}
+
+.mission-section h2 {
+    font-family: sans-serif;
+    font-size: 1.4em;
+    margin-bottom: 16px;
+    text-shadow: 0 0px 8px #2e7d32;
+}
+
+.mission-card {
+    background: #2d5a2db3;
+    border-radius: 20px;
+    padding: 24px;
+    box-shadow: 0 0px 24px #2e7d32aa;
+    font-family: sans-serif;
+    color: #4caf50;
+    border: 2px solid #2e7d32;
+}
+
+.mission-steps {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+.mission-steps li {
+    font-size: 1em;
+    padding: 8px 0px;
+    color: white;
+    font-family: sans-serif;
+    border-bottom: 1px solid #4caf50;
+}
+
+.mission-card h3 {
+    font-family: sans-serif;
+    color: #4caf50;
 }
